@@ -24,8 +24,28 @@
 </style><script src="https://js.arcgis.com/4.33/"></script></head><body><div id="viewDiv"></div><header class="header"><div class="brand"><img src="sma-logo.png" alt="SMA Group"></div><h1>نادى القضاة بالغردقة</h1><span class="sub">3D Survey Viewer</span></header><nav class="tools" aria-label="أدوات العرض"><button id="home" title="المشهد الرئيسي">⌂</button><button id="zoomIn" title="تكبير">+</button><button id="zoomOut" title="تصغير">−</button><button id="measure" title="القياس">📏</button><button id="orient" title="اتجاه الشمال">↥</button><button id="shot" title="التقاط صورة">▣</button><button id="full" title="ملء الشاشة">⛶</button></nav><section class="panel" id="measurePanel"><button class="close" id="closeMeasure">✕</button><h3>أدوات القياس</h3><div class="hint">اختر نوع القياس، ثم حدد الوحدة قبل البدء.</div><div class="measure-types"><button id="vertical">قياس المسافة</button><button id="area">قياس مساحة</button></div>
 <div class="measure-units"><label for="measureUnit">وحدة القياس</label><select id="measureUnit"><option value="meters">متر</option><option value="kilometers">كيلومتر</option><option value="feet">قدم</option></select></div>
 <button id="newMeasure">قياس جديد</button><div id="measureResult" aria-live="polite"></div><div id="measureHost" class="measure-host"></div></section><div class="foot"><div>WGS 84 / UTM Zone 36N · EPSG:32636</div><div class="cursor-coords" id="cursorCoords">—</div></div><div class="powered">POWERED BY <strong>SMA Group</strong></div><div class="status" id="status">Loading 3D model…</div><script>
+(async function initializeSMAViewer(){
+  const statusElement = document.getElementById('status');
+  try {
+    if (!('serviceWorker' in navigator)) throw new Error('المتصفح لا يدعم Service Worker');
+    await navigator.serviceWorker.register('./i3s-static-sw.js', {scope:'./'});
+    await navigator.serviceWorker.ready;
+    if (!navigator.serviceWorker.controller) {
+      // The first visit installs the worker; reload once it takes control.
+      const reloadOnControl = () => window.location.reload();
+      navigator.serviceWorker.addEventListener('controllerchange', reloadOnControl, {once:true});
+      statusElement.style.display='block';
+      statusElement.textContent='جاري تهيئة النموذج ثلاثي الأبعاد…';
+      return;
+    }
+  } catch (e) {
+    console.error('SMA service worker initialization failed:', e);
+    statusElement.style.display='block';
+    statusElement.textContent='تعذر تهيئة عرض النموذج: '+e.message;
+    return;
+  }
 require(['esri/Map','esri/views/SceneView','esri/layers/IntegratedMeshLayer','esri/widgets/ScaleBar','esri/widgets/DirectLineMeasurement3D','esri/widgets/AreaMeasurement3D','esri/layers/GraphicsLayer','esri/Graphic','esri/geometry/Polyline','esri/geometry/projection'],function(Map,SceneView,IntegratedMeshLayer,ScaleBar,DirectLineMeasurement3D,AreaMeasurement3D,GraphicsLayer,Graphic,Polyline,projection){
-const status=document.getElementById('status');const layer=new IntegratedMeshLayer({url:location.origin+'/SceneServer/layers/0'});const map=new Map({layers:[layer]});const view=new SceneView({container:'viewDiv',map,viewingMode:'local',spatialReference:{wkid:32636},camera:{position:{longitude:33.79,latitude:27.27,z:800},tilt:65},environment:{background:{type:'color',color:[215,226,234,1]},starsEnabled:false,atmosphereEnabled:false}});view.ui.components=[];let initialView=null;let currentWidget=null;
+const status=document.getElementById('status');const layer=new IntegratedMeshLayer({url:new URL('./model/SceneServer/layers/0',location.href).href});const map=new Map({layers:[layer]});const view=new SceneView({container:'viewDiv',map,viewingMode:'local',spatialReference:{wkid:32636},camera:{position:{longitude:33.79,latitude:27.27,z:800},tilt:65},environment:{background:{type:'color',color:[215,226,234,1]},starsEnabled:false,atmosphereEnabled:false}});view.ui.components=[];let initialView=null;let currentWidget=null;
 const drawLayer=new GraphicsLayer({title:'القياس الأفقي',elevationInfo:{mode:'absolute-height'}});
 map.add(drawLayer);
 let measureType=null,points=[],completed=false,clickHandle=null,doubleHandle=null,moveHandle=null,requestNumber=0;
@@ -106,4 +126,5 @@ unitSelect.onchange=()=>{
   if(measureType==='horizontal')showHorizontal();
   else if(currentWidget){try{currentWidget.unit=measureType==='area'?({meters:'square-meters',kilometers:'square-kilometers',feet:'square-feet'}[unitSelect.value]):unitSelect.value}catch(e){console.warn('Unit change:',e)}}
 };
-});</script></body></html>
+});
+})();</script></body></html>

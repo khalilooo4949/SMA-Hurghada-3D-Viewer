@@ -1,5 +1,5 @@
-/* SMA I3S static experiment. Serve from the root of i3s_static_test. */
-const ROOT = new URL('./', self.registration.scope);
+/* SMA I3S viewer: service worker at website root, model assets under /model/. */
+const ROOT = new URL('./model/', self.registration.scope);
 const PREFIX = new URL('SceneServer/layers/0', ROOT).pathname;
 self.addEventListener('install', event => event.waitUntil(self.skipWaiting()));
 self.addEventListener('activate', event => event.waitUntil(self.clients.claim()));
