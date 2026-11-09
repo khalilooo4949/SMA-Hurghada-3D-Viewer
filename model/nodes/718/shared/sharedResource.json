@@ -1,0 +1,42 @@
+{
+"materialDefinitions" : {
+"mat_718" : {
+"type" : "standard",
+"name" : "standard",
+"params" : {
+"vertexRegions" : false,
+"vertexColors" : false,
+"useVertexColorAlpha" : false,
+"reflectivity" : 0,
+"shininess" : 1,
+"ambient" : [0, 0, 0],
+"diffuse" : [1, 1, 1],
+"specular" : [0.098, 0.098, 0.098],
+"renderMode" : "solid",
+"cullFace" : "none"
+}
+
+}
+
+}
+,
+"textureDefinitions" : {
+"718" : {
+"encoding" : ["image/jpeg"],
+"wrap" : [],
+"atlas" : false,
+"uvSet" : "uv0",
+"channels" : "rgb",
+"images" : [{
+"id" : "718",
+"size" : 0,
+"href" : ["../textures/0"],
+"byteOffset" : [0],
+"length" : [745605]
+}
+]
+}
+
+}
+
+}

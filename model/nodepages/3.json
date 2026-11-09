@@ -1,0 +1,1795 @@
+{
+"nodes" : [{
+"index" : 192,
+"parentIndex" : 97,
+"lodThreshold" : 516343.0452605668,
+"obb" : {
+"center" : [577977.9720407502, 3016725.9997940585, 11.42946406252948],
+"halfSize" : [10.20156, 11.155009, 6.336107],
+"quaternion" : [0.7048802203784581, 0.007120372707177074, 0.015045940548490951, 0.709131013906978]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 294,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 294,
+"vertexCount" : 28983,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [374, 375, 376]
+}
+, {
+"index" : 193,
+"parentIndex" : 98,
+"lodThreshold" : 728914.0559375,
+"obb" : {
+"center" : [577957.875, 3016743.25, 7.065361976623535],
+"halfSize" : [11.20625, 12.925, 7.2600813],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 307,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 307,
+"vertexCount" : 33918,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [377, 378, 379]
+}
+, {
+"index" : 194,
+"parentIndex" : 99,
+"lodThreshold" : 648822.223125,
+"obb" : {
+"center" : [577957.9375, 3016736.5, 20.26458168029785],
+"halfSize" : [11.275001, 5.5, 7.2599983],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 315,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 315,
+"vertexCount" : 25734,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [380, 381]
+}
+, {
+"index" : 195,
+"parentIndex" : 99,
+"lodThreshold" : 435565.8359375,
+"obb" : {
+"center" : [577961.125, 3016748, 18.93724250793457],
+"halfSize" : [7.6312504, 7.425, 5.7996454],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 322,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 322,
+"vertexCount" : 20850,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [382, 383]
+}
+, {
+"index" : 196,
+"parentIndex" : 100,
+"lodThreshold" : 371800.7810750324,
+"obb" : {
+"center" : [577978.371154245, 3016736.662965788, 7.319240411683236],
+"halfSize" : [7.1116962, 10.702915, 5.5043073],
+"quaternion" : [0.5079810860837745, -0.4918911771761952, 0.5079906367143923, 0.49187782935183433]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 331,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 331,
+"vertexCount" : 27009,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [384, 385]
+}
+, {
+"index" : 197,
+"parentIndex" : 100,
+"lodThreshold" : 479890.95906250004,
+"obb" : {
+"center" : [577978.375, 3016748.25, 7.312534809112549],
+"halfSize" : [11.275001, 7.7000003, 7.121196],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 337,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 337,
+"vertexCount" : 21306,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [386, 387]
+}
+, {
+"index" : 198,
+"parentIndex" : 101,
+"lodThreshold" : 378295.49859375,
+"obb" : {
+"center" : [577974.5625, 3016738.5, 18.129314422607422],
+"halfSize" : [7.0125003, 7.7000003, 4.778289],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 343,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 343,
+"vertexCount" : 16842,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [388]
+}
+, {
+"index" : 199,
+"parentIndex" : 101,
+"lodThreshold" : 590686.4968750001,
+"obb" : {
+"center" : [577977.875, 3016750.25, 20.263713836669922],
+"halfSize" : [10.725, 5.5, 7.126208],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 351,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 351,
+"vertexCount" : 22539,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [389, 390]
+}
+, {
+"index" : 200,
+"parentIndex" : 102,
+"lodThreshold" : 495592.43093750003,
+"obb" : {
+"center" : [577916.8125, 3016761.5, 7.22530460357666],
+"halfSize" : [11.275001, 7.7000003, 7.0569015],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 359,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 359,
+"vertexCount" : 19572,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [391]
+}
+, {
+"index" : 201,
+"parentIndex" : 102,
+"lodThreshold" : 413329.2390625,
+"obb" : {
+"center" : [577916.6875, 3016773.25, 7.136825084686279],
+"halfSize" : [11.20625, 5.5, 7.154226],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 365,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 365,
+"vertexCount" : 21018,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [392, 393]
+}
+, {
+"index" : 202,
+"parentIndex" : 103,
+"lodThreshold" : 638112.4190625,
+"obb" : {
+"center" : [577916.8125, 3016759.5, 20.141056060791016],
+"halfSize" : [11.275001, 5.5, 7.151327],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 373,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 373,
+"vertexCount" : 25374,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [394, 395]
+}
+, {
+"index" : 203,
+"parentIndex" : 103,
+"lodThreshold" : 492928.77875,
+"obb" : {
+"center" : [577919.0625, 3016771.25, 18.69466209411621],
+"halfSize" : [8.73125, 7.7000003, 5.560107],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 380,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 380,
+"vertexCount" : 23517,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [396, 397]
+}
+, {
+"index" : 204,
+"parentIndex" : 104,
+"lodThreshold" : 428055.6428125,
+"obb" : {
+"center" : [577937.3125, 3016760.5, 7.366220474243164],
+"halfSize" : [11.275001, 6.3250003, 7.033601],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 388,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 388,
+"vertexCount" : 21111,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [398, 399]
+}
+, {
+"index" : 205,
+"parentIndex" : 104,
+"lodThreshold" : 425904.1540625,
+"obb" : {
+"center" : [577937.1875, 3016772.25, 7.333311557769775],
+"halfSize" : [11.20625, 6.3250003, 7.0698],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 394,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 394,
+"vertexCount" : 20862,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [400, 401]
+}
+, {
+"index" : 206,
+"parentIndex" : 105,
+"lodThreshold" : 365292.7340625,
+"obb" : {
+"center" : [577932.8125, 3016761.5, 18.75014305114746],
+"halfSize" : [6.3250003, 7.425, 5.489692],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 399,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 399,
+"vertexCount" : 17454,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [402]
+}
+, {
+"index" : 207,
+"parentIndex" : 105,
+"lodThreshold" : 527035.8021875,
+"obb" : {
+"center" : [577935.8125, 3016773.25, 20.187137603759766],
+"halfSize" : [9.69375, 5.5, 7.0704117],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 407,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 407,
+"vertexCount" : 22803,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [403, 404]
+}
+, {
+"index" : 208,
+"parentIndex" : 106,
+"lodThreshold" : 533891.81291617,
+"obb" : {
+"center" : [577915.9232242499, 3016790.7800002326, 2.4507462482750078],
+"halfSize" : [13.903436, 2.1865528, 9.832715],
+"quaternion" : [-0.4922090596746305, 0.5076825942689892, 0.5018844371047173, -0.49809701549257057]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 417,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 417,
+"vertexCount" : 9837,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [405, 406]
+}
+, {
+"index" : 209,
+"parentIndex" : 106,
+"lodThreshold" : 477590.86000000004,
+"obb" : {
+"center" : [577925.3125, 3016783, 11.234992980957031],
+"halfSize" : [5.43125, 5.5, 11.6578665],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 424,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 424,
+"vertexCount" : 25419,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [407, 408]
+}
+, {
+"index" : 210,
+"parentIndex" : 106,
+"lodThreshold" : 455981.3309375,
+"obb" : {
+"center" : [577925.25, 3016794.5, 11.008193969726562],
+"halfSize" : [5.43125, 7.425, 11.914655],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 429,
+"texelCountHint" : 524288
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 429,
+"vertexCount" : 13728,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [409]
+}
+, {
+"index" : 211,
+"parentIndex" : 107,
+"lodThreshold" : 706429.055625,
+"obb" : {
+"center" : [577938.8125, 3016789.75, 7.881944179534912],
+"halfSize" : [9.28125, 12.925, 8.526564],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 436,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 436,
+"vertexCount" : 27873,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [410, 411]
+}
+, {
+"index" : 212,
+"parentIndex" : 108,
+"lodThreshold" : 489520.40687500004,
+"obb" : {
+"center" : [577938.875, 3016784, 20.305164337158203],
+"halfSize" : [9.35, 6.6000004, 5.139882],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 444,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 444,
+"vertexCount" : 22359,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [412, 413]
+}
+, {
+"index" : 213,
+"parentIndex" : 108,
+"lodThreshold" : 536071.20125,
+"obb" : {
+"center" : [577938.75, 3016795.75, 21.16888999938965],
+"halfSize" : [9.35, 6.6000004, 6.0899477],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 451,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 451,
+"vertexCount" : 27129,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [414, 415]
+}
+, {
+"index" : 214,
+"parentIndex" : 109,
+"lodThreshold" : 463456.2971875,
+"obb" : {
+"center" : [577955.4375, 3016766.5, 2.3798537254333496],
+"halfSize" : [8.6625, 12.925, 4.222788],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 459,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 459,
+"vertexCount" : 16716,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [416]
+}
+, {
+"index" : 215,
+"parentIndex" : 109,
+"lodThreshold" : 808147.5403125001,
+"obb" : {
+"center" : [577967.4375, 3016766.75, 10.364901542663574],
+"halfSize" : [4.33125, 12.925, 12.777138],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 469,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 469,
+"vertexCount" : 31263,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [417, 418, 419]
+}
+, {
+"index" : 216,
+"parentIndex" : 110,
+"lodThreshold" : 482725.34875,
+"obb" : {
+"center" : [577980, 3016761.75, 8.528024673461914],
+"halfSize" : [9.35, 7.425, 8.236133],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 474,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 474,
+"vertexCount" : 20271,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [420]
+}
+, {
+"index" : 217,
+"parentIndex" : 110,
+"lodThreshold" : 306289.16578125,
+"obb" : {
+"center" : [577977.125, 3016773.5, 8.515795707702637],
+"halfSize" : [6.3250003, 5.5, 8.249277],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 481,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 481,
+"vertexCount" : 23574,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [421, 422]
+}
+, {
+"index" : 218,
+"parentIndex" : 111,
+"lodThreshold" : 462806.3171875,
+"obb" : {
+"center" : [577980, 3016761, 19.980724334716797],
+"halfSize" : [9.35, 6.6000004, 4.36278],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 489,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 489,
+"vertexCount" : 22629,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [423, 424]
+}
+, {
+"index" : 219,
+"parentIndex" : 111,
+"lodThreshold" : 502992.773125,
+"obb" : {
+"center" : [577980, 3016772.5, 21.373380661010742],
+"halfSize" : [9.28125, 6.3250003, 5.894715],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 496,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 496,
+"vertexCount" : 20568,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [425, 426]
+}
+, {
+"index" : 220,
+"parentIndex" : 112,
+"lodThreshold" : 551626.1725,
+"obb" : {
+"center" : [577954.1875, 3016790, 5.724325656890869],
+"halfSize" : [7.425, 12.925, 7.6657133],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 505,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 505,
+"vertexCount" : 28554,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [427, 428]
+}
+, {
+"index" : 221,
+"parentIndex" : 112,
+"lodThreshold" : 673767.1190625001,
+"obb" : {
+"center" : [577954.125, 3016792, 19.66798210144043],
+"halfSize" : [7.425, 10.725, 7.673067],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 512,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 512,
+"vertexCount" : 27720,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [429, 430]
+}
+, {
+"index" : 222,
+"parentIndex" : 113,
+"lodThreshold" : 509589.12812500005,
+"obb" : {
+"center" : [577970.125, 3016790, 2.9184494018554688],
+"halfSize" : [9.96875, 12.925, 3.6155136],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 518,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 518,
+"vertexCount" : 15654,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [431]
+}
+, {
+"index" : 223,
+"parentIndex" : 113,
+"lodThreshold" : 774635.9884375001,
+"obb" : {
+"center" : [577983.75, 3016790, 11.10655689239502],
+"halfSize" : [4.88125, 12.650001, 12.005353],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 528,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 528,
+"vertexCount" : 31752,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [432, 433, 434]
+}
+, {
+"index" : 224,
+"parentIndex" : 114,
+"lodThreshold" : 328247.60718631424,
+"obb" : {
+"center" : [577927.3085075177, 3016811.0644796225, 1.052619304387147],
+"halfSize" : [10.364636, 4.209576, 7.330091],
+"quaternion" : [0.4636816931587829, -0.37514515937577947, 0.620143627841134, -0.5095952096265844]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 538,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 538,
+"vertexCount" : 4338,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [435, 436]
+}
+, {
+"index" : 225,
+"parentIndex" : 115,
+"lodThreshold" : 347556.37046875,
+"obb" : {
+"center" : [577941.9375, 3016809.25, 5.053258895874023],
+"halfSize" : [8.73125, 8.525001, 5.4147515],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 545,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 545,
+"vertexCount" : 25404,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [437, 438]
+}
+, {
+"index" : 226,
+"parentIndex" : 115,
+"lodThreshold" : 525765.9175,
+"obb" : {
+"center" : [577943.3125, 3016809.25, 16.86532211303711],
+"halfSize" : [7.21875, 8.525001, 7.579274],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 552,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 552,
+"vertexCount" : 23817,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [439, 440]
+}
+, {
+"index" : 227,
+"parentIndex" : 115,
+"lodThreshold" : 618973.0837732194,
+"obb" : {
+"center" : [577941.8799660219, 3016827.7670198143, 11.28715974313782],
+"halfSize" : [8.317237, 11.404335, 11.339773],
+"quaternion" : [0.7061224133583939, 0.011008912536507853, 0.011053158496190471, 0.7079179111203071]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 560,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 560,
+"vertexCount" : 18951,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [441, 442]
+}
+, {
+"index" : 228,
+"parentIndex" : 116,
+"lodThreshold" : 15391.909601634476,
+"obb" : {
+"center" : [577948.0559606723, 3016841.2418534276, 0.30539813513762315],
+"halfSize" : [0.051072046, 1.662298, 2.3239775],
+"quaternion" : [0.49432930874628395, 0.48610933492146485, -0.5020916235128211, 0.5169528514428487]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 565,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 565,
+"vertexCount" : 264,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [443]
+}
+, {
+"index" : 229,
+"parentIndex" : 117,
+"lodThreshold" : 467091.386875,
+"obb" : {
+"center" : [577957.875, 3016809.5, 8.343216896057129],
+"halfSize" : [8.73125, 8.8, 8.221438],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 572,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 572,
+"vertexCount" : 17865,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [444]
+}
+, {
+"index" : 230,
+"parentIndex" : 117,
+"lodThreshold" : 593364.524375,
+"obb" : {
+"center" : [577957.875, 3016809.5, 21.15787124633789],
+"halfSize" : [8.73125, 8.8, 5.87562],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 579,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 579,
+"vertexCount" : 28140,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [445, 446]
+}
+, {
+"index" : 231,
+"parentIndex" : 118,
+"lodThreshold" : 421393.0534375,
+"obb" : {
+"center" : [577955.6875, 3016825, 8.351320266723633],
+"halfSize" : [6.39375, 8.525001, 8.754135],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 587,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 587,
+"vertexCount" : 24903,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [447, 448]
+}
+, {
+"index" : 232,
+"parentIndex" : 118,
+"lodThreshold" : 522285.27656250005,
+"obb" : {
+"center" : [577957.8125, 3016825, 20.287281036376953],
+"halfSize" : [8.73125, 8.525001, 4.3761764],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 594,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 594,
+"vertexCount" : 25011,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [449, 450]
+}
+, {
+"index" : 233,
+"parentIndex" : 119,
+"lodThreshold" : 577957.3784375,
+"obb" : {
+"center" : [577969.5625, 3016810.75, 11.401148796081543],
+"halfSize" : [3.9875002, 9.900001, 11.474703],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 603,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 603,
+"vertexCount" : 22245,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [451, 452]
+}
+, {
+"index" : 234,
+"parentIndex" : 119,
+"lodThreshold" : 303283.40078125003,
+"obb" : {
+"center" : [577980.75, 3016810.75, 1.7907308340072632],
+"halfSize" : [8.1125, 9.900001, 2.3739214],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 607,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 607,
+"vertexCount" : 14985,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [453]
+}
+, {
+"index" : 235,
+"parentIndex" : 119,
+"lodThreshold" : 1091053.346875,
+"obb" : {
+"center" : [577976.9375, 3016826.5, 13.32564640045166],
+"halfSize" : [12.2375, 7.425, 14.619432],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 616,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 616,
+"vertexCount" : 34437,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [454, 455, 456]
+}
+, {
+"index" : 236,
+"parentIndex" : 120,
+"lodThreshold" : 441741.2040334476,
+"obb" : {
+"center" : [577959.2105478746, 3016841.883437856, 2.619726164243876],
+"halfSize" : [3.246458, 10.948711, 10.502016],
+"quaternion" : [0.7061239100226451, -0.006183291051410377, 0.7080341732173868, 0.006196786463676982]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 626,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 626,
+"vertexCount" : 21048,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [457, 458]
+}
+, {
+"index" : 237,
+"parentIndex" : 120,
+"lodThreshold" : 372126.48563097423,
+"obb" : {
+"center" : [577963.6610786088, 3016837.686770604, 13.527335830505058],
+"halfSize" : [8.513321, 5.498661, 5.621067],
+"quaternion" : [-0.010987071616200427, 0.7042802044169065, 0.01107486334423689, 0.7097506782847673]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 631,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 631,
+"vertexCount" : 15894,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [459]
+}
+, {
+"index" : 238,
+"parentIndex" : 121,
+"lodThreshold" : 446460.5565625,
+"obb" : {
+"center" : [577978.4375, 3016842, 4.815519332885742],
+"halfSize" : [10.45, 10.175, 4.9342437],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 639,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 639,
+"vertexCount" : 21504,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [460, 461]
+}
+, {
+"index" : 239,
+"parentIndex" : 121,
+"lodThreshold" : 363179.9065625,
+"obb" : {
+"center" : [577976, 3016837.25, 15.576438903808594],
+"halfSize" : [7.76875, 4.9500003, 6.9040523],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 643,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 643,
+"vertexCount" : 16275,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [462]
+}
+, {
+"index" : 240,
+"parentIndex" : 122,
+"lodThreshold" : 185238.9028410775,
+"obb" : {
+"center" : [577960.906987546, 3016855.5806770152, 1.0780716012636875],
+"halfSize" : [7.8965397, 5.960137, 0.79767877],
+"quaternion" : [0.013480714782255942, -0.0339051292347679, 0.9993260484992759, -0.00402011583865357]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 650,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 650,
+"vertexCount" : 7974,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [463, 464]
+}
+, {
+"index" : 241,
+"parentIndex" : 122,
+"lodThreshold" : 93756.4243905919,
+"obb" : {
+"center" : [577965.5378034638, 3016866.010768607, 4.929060204750166],
+"halfSize" : [4.6294284, 4.25626, 3.1793644],
+"quaternion" : [0.5132618670471659, -0.48637666167213384, 0.5096447361510725, -0.49016552482751347]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 654,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 654,
+"vertexCount" : 5010,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [465]
+}
+, {
+"index" : 242,
+"parentIndex" : 123,
+"lodThreshold" : 584977.5782448282,
+"obb" : {
+"center" : [577978.1558031988, 3016863.570859634, 4.685024162460909],
+"halfSize" : [10.449029, 4.806612, 13.321271],
+"quaternion" : [0.707022078762124, 0.01102295958150799, 0.011039149882318593, 0.7070193856428726]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 664,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 664,
+"vertexCount" : 29886,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [466, 467, 468]
+}
+, {
+"index" : 243,
+"parentIndex" : 124,
+"lodThreshold" : 373309.68768330134,
+"obb" : {
+"center" : [577980.3186927965, 3016886.7479236037, 4.220393231102461],
+"halfSize" : [10.938738, 4.874567, 7.78824],
+"quaternion" : [-0.4942269424717964, 0.5057185046275988, 0.4781986403397989, -0.5208786651316911]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 674,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 674,
+"vertexCount" : 13218,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [469, 470]
+}
+, {
+"index" : 244,
+"parentIndex" : 124,
+"lodThreshold" : 2.152085663598967,
+"obb" : {
+"center" : [577987.648320457, 3016897.318159771, 0.04794832689319484],
+"halfSize" : [0.020627346, 0.020590788, 0.019953085],
+"quaternion" : [0.3262568251408801, -0.6047123191440444, 0.6490665633094406, -0.32648444299552226]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 677,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 677,
+"vertexCount" : 21,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [471]
+}
+, {
+"index" : 245,
+"parentIndex" : 125,
+"lodThreshold" : 126572.60593037469,
+"obb" : {
+"center" : [577990.431250704, 3016738.9195971573, 3.0403870056730904],
+"halfSize" : [6.0903535, 3.6476364, 4.115786],
+"quaternion" : [-0.30271150490836135, 0.7669478530515916, -0.4219011695662517, 0.3770359911391726]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 687,
+"texelCountHint" : 524288
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 687,
+"vertexCount" : 8376,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [472, 473]
+}
+, {
+"index" : 246,
+"parentIndex" : 126,
+"lodThreshold" : 329167.1329788299,
+"obb" : {
+"center" : [577995.2739746703, 3016752.3197150687, 4.435815387147871],
+"halfSize" : [9.998308, 7.4431796, 4.020197],
+"quaternion" : [0.7004942735189715, 0.7135536840537041, 0.00881745163562946, 0.008435952060566092]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 697,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 697,
+"vertexCount" : 33048,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [474, 475]
+}
+, {
+"index" : 247,
+"parentIndex" : 126,
+"lodThreshold" : 476032.3932172407,
+"obb" : {
+"center" : [577993.4029130512, 3016753.2477716706, 15.004142375528597],
+"halfSize" : [9.527047, 6.4848948, 7.777738],
+"quaternion" : [-1.0127815794063162e-05, -5.6671655669899574e-06, 0.946131952932393, 0.32378129579338977]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 701,
+"texelCountHint" : 524288
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 701,
+"vertexCount" : 10599,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [476]
+}
+, {
+"index" : 248,
+"parentIndex" : 127,
+"lodThreshold" : 136901.9501007368,
+"obb" : {
+"center" : [578004.1565142035, 3016757.2323594056, 6.970910188403169],
+"halfSize" : [4.8883367, 4.3869944, 4.8717866],
+"quaternion" : [-0.5014143869865834, 0.4982347386831066, 0.5017556068209326, 0.49858506667970204]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 706,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 706,
+"vertexCount" : 4218,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [477]
+}
+, {
+"index" : 249,
+"parentIndex" : 128,
+"lodThreshold" : 431564.7890625,
+"obb" : {
+"center" : [577997.5625, 3016771.75, 6.088715076446533],
+"halfSize" : [7.49375, 10.725, 6.5418067],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 716,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 716,
+"vertexCount" : 31950,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [478, 479]
+}
+, {
+"index" : 250,
+"parentIndex" : 128,
+"lodThreshold" : 677352.75375,
+"obb" : {
+"center" : [577996.4375, 3016771.75, 17.98211669921875],
+"halfSize" : [8.73125, 10.725, 6.5418715],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 724,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 724,
+"vertexCount" : 30492,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [480, 481]
+}
+, {
+"index" : 251,
+"parentIndex" : 129,
+"lodThreshold" : 272156.55349125323,
+"obb" : {
+"center" : [578009.6576235308, 3016767.331634265, 5.70611615051648],
+"halfSize" : [6.4316216, 7.2722487, 6.5568066],
+"quaternion" : [0.6708066674913631, -0.42875927162956423, -0.355499020428993, -0.48969822167825333]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 731,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 731,
+"vertexCount" : 11982,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [482, 483]
+}
+, {
+"index" : 252,
+"parentIndex" : 129,
+"lodThreshold" : 244453.86835505976,
+"obb" : {
+"center" : [578012.1645983831, 3016776.542833907, 5.257950359969832],
+"halfSize" : [8.351307, 4.996534, 5.3599334],
+"quaternion" : [0.7070922474304635, -0.0047515396888285835, 0.008414892924054188, 0.7070552779460729]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 737,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 737,
+"vertexCount" : 19617,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [484, 485]
+}
+, {
+"index" : 253,
+"parentIndex" : 129,
+"lodThreshold" : 261313.04793147938,
+"obb" : {
+"center" : [578011.2065771902, 3016778.3411895605, 15.783823437949316],
+"halfSize" : [7.625136, 6.5286765, 2.7158003],
+"quaternion" : [0.7071364165764412, -0.1358355549162988, -0.14639909203006535, 0.6782876205746228]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 740,
+"texelCountHint" : 262144
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 740,
+"vertexCount" : 3408,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [486]
+}
+, {
+"index" : 254,
+"parentIndex" : 130,
+"lodThreshold" : 587339.453125,
+"obb" : {
+"center" : [577996.3125, 3016791, 8.527057647705078],
+"halfSize" : [8.73125, 10.725, 8.281635],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 750,
+"texelCountHint" : 1048576
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 750,
+"vertexCount" : 29751,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [487, 488]
+}
+, {
+"index" : 255,
+"parentIndex" : 130,
+"lodThreshold" : 713815.709375,
+"obb" : {
+"center" : [577996.3125, 3016791, 21.431446075439453],
+"halfSize" : [8.73125, 10.725, 5.9141827],
+"quaternion" : [1.9040976440010127e-06, -1.144687757914653e-05, 0.015598367899656296, 0.9997565746307373]
+}
+,
+"mesh" : {
+"material" : {
+"definition" : 0,
+"resource" : 758,
+"texelCountHint" : 2097152
+}
+,
+"geometry" : {
+"definition" : 0,
+"resource" : 758,
+"vertexCount" : 32079,
+"featureCount" : 1
+}
+
+}
+,
+"children" : [489, 490]
+}
+]
+}

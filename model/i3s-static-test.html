@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SMA - I3S Static Test</title><link rel="stylesheet" href="https://js.arcgis.com/4.33/esri/themes/light/main.css"><style>html,body,#viewDiv{margin:0;width:100%;height:100%;font-family:Tahoma}#info{position:absolute;top:10px;left:10px;right:10px;z-index:10;background:#102d4c;color:white;padding:10px;border-radius:8px;font-size:14px;text-align:center}</style><script src="https://js.arcgis.com/4.33/"></script></head><body><div id="viewDiv"></div><div id="info">جاري تهيئة اختبار I3S الثابت…</div><script>
+const info=document.getElementById('info');
+(async()=>{
+  if (!('serviceWorker' in navigator)) {info.textContent='المتصفح لا يدعم Service Worker';return;}
+  try {
+    await navigator.serviceWorker.register('./i3s-static-sw.js', {scope:'./'});
+    await navigator.serviceWorker.ready;
+    if (!navigator.serviceWorker.controller) {
+      info.textContent='تم تفعيل محوّل المسارات، جاري إعادة تحميل الصفحة…';
+      navigator.serviceWorker.addEventListener('controllerchange',()=>location.reload(),{once:true});
+      return;
+    }
+    info.textContent='جاري تحميل نموذج DJI Terra من الملفات الثابتة…';
+    require(['esri/Map','esri/views/SceneView','esri/layers/IntegratedMeshLayer'],function(Map,SceneView,IntegratedMeshLayer){
+      const layer=new IntegratedMeshLayer({url:location.origin+location.pathname.replace(/[^/]+$/,'')+'SceneServer/layers/0'});
+      const map=new Map({layers:[layer]});
+      const view=new SceneView({container:'viewDiv',map,viewingMode:'local',spatialReference:{wkid:32636},camera:{position:{longitude:33.79,latitude:27.27,z:800},tilt:65},environment:{background:{type:'color',color:[215,226,234,1]},starsEnabled:false,atmosphereEnabled:false}});
+      view.ui.components=[];
+      view.when(()=>layer.load()).then(()=>view.goTo(layer.fullExtent.expand(1.12),{duration:0})).then(()=>{info.textContent='نجح تحميل الطبقة. تحقق من ظهور المجسم والخامات.'}).catch(e=>{console.error('SMA STATIC I3S ERROR',e);info.textContent='فشل تحميل النموذج. افتح F12 ثم Console وصوّر الأخطاء.'});
+    });
+  }catch(e){console.error(e);info.textContent='تعذر تشغيل اختبار الملفات الثابتة: '+e.message}
+})();
+</script></body></html>
