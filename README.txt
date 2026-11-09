@@ -1,1 +1,1 @@
-Copy index.html and i3s-static-sw.js into the ROOT of SMA-Hurghada-3D-Viewer repository (next to sma-logo.png). Keep the existing model/ folder unchanged. Commit and Push using GitHub Desktop. Open https://khalilooo4949.github.io/SMA-Hurghada-3D-Viewer/ and hard refresh (Ctrl+Shift+R) if needed.
+Replace ONLY index.html and i3s-static-sw.js at repository root. Keep model/ unchanged. Commit, Push, then hard refresh. The service worker handles both project-scoped and root SceneServer requests.
