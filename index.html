@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>نادى القضاة بالغردقة | SMA</title><link rel="stylesheet" href="https://js.arcgis.com/4.33/esri/themes/light/main.css"><style>
+*{box-sizing:border-box}html,body,#viewDiv{height:100%;width:100%;padding:0;margin:0;font-family:Tahoma,Arial,sans-serif}#viewDiv{position:absolute;inset:0}.header{position:absolute;top:0;left:0;right:0;height:82px;background:linear-gradient(100deg,#0a1c30f5,#102d4cf0);color:#fff;z-index:10;display:flex;align-items:center;justify-content:center;box-shadow:0 3px 18px #0005;border-bottom:2px solid #bd9b57}.header h1{font-size:clamp(18px,2.3vw,30px);margin:0;text-align:center}.brand{position:absolute;left:16px;top:8px;background:transparent;border-radius:0;padding:0;height:65px;display:flex;align-items:center}.brand img{height:60px;width:155px;object-fit:contain}.sub{position:absolute;right:18px;font-size:12px;opacity:.85}.tools{position:absolute;z-index:12;right:14px;top:100px;display:flex;flex-direction:column;gap:7px}.tools button,.panel button{border:1px solid #dce5ef;background:#fff;color:#163452;cursor:pointer;border-radius:9px;min-height:41px;padding:8px 12px;font-weight:700;box-shadow:0 2px 8px #0002}.tools button{width:48px;font-size:21px}.tools button:hover,.panel button:hover{background:#eaf4ff}.tools button.active{background:#0872bc;color:white}.panel{position:absolute;z-index:12;top:100px;right:73px;background:#102a45f0;color:#fff;padding:14px;border-radius:12px;max-width:310px;min-width:230px;box-shadow:0 5px 20px #0004;display:none}.panel.show{display:block}.panel h3{margin:0 0 12px}.panel button{font-size:13px;margin:3px}.panel .close{float:left}.status{position:absolute;bottom:12px;right:14px;background:#112b46e8;color:white;border-radius:8px;padding:8px 12px;font-size:12px;z-index:11;max-width:55%;direction:ltr;text-align:left}.scale{position:absolute;bottom:12px;left:14px;z-index:11;background:#fffe;border-radius:8px;padding:7px 10px;min-width:150px;direction:ltr}.hint{font-size:12px;line-height:1.7;opacity:.92}.measure-host{min-height:45px;direction:ltr;background:white;color:#222;border-radius:6px;margin-top:10px}.foot{position:absolute;bottom:54px;left:14px;z-index:11;background:#102a45dc;color:#fff;padding:6px 9px;border-radius:6px;font-size:11px}#viewDiv .esri-ui-top-left{top:85px}#viewDiv .esri-ui-top-right{top:85px}@media(max-width:700px){.header{height:72px}.brand{left:6px;top:11px;height:50px;padding:2px 5px}.brand img{width:85px;height:43px}.header h1{font-size:17px;padding:0 85px}.sub{display:none}.tools{top:85px;right:7px;gap:4px}.tools button{width:41px;min-height:38px;font-size:18px}.panel{top:85px;right:54px;max-width:calc(100vw - 70px)}.status{font-size:10px;max-width:68%}.scale{bottom:45px}}
+
+
+.measure-types{display:flex;gap:4px;flex-wrap:wrap}.measure-types button{flex:1;white-space:nowrap;padding:8px 5px}.measure-types button.selected{background:#0872bc;color:#fff}.measure-units{display:flex;align-items:center;gap:8px;margin:10px 2px}.measure-units label{font-size:12px;white-space:nowrap}.measure-units select{width:100%;padding:9px;border-radius:7px;border:1px solid #c9d7e5;background:white;color:#173452;font:13px Tahoma}#measureResult{margin-top:8px;font-size:13px;line-height:1.9}#measureResult:not(:empty){padding:9px;background:#fff;color:#173452;border-radius:7px}#measureHost:empty{display:none}
+
+/* Final footer layout */
+.foot{bottom:12px;left:14px;display:flex;flex-direction:column;gap:5px;direction:ltr;text-align:left}
+.foot .scale{position:static;min-width:0;padding:0;background:transparent;color:#fff;direction:ltr;display:flex;flex-direction:column;align-items:flex-start;gap:4px;font-size:12px}
+/* Compact cartographic bar: four alternating segments with clear endpoints. */
+.foot{background:#102a45e8;border:1px solid #ffffff26;padding:10px 12px;border-radius:9px;box-shadow:0 3px 12px #0003;gap:7px;font-size:10px}
+.foot .scale{gap:6px;font-size:12px}
+.scale-title{display:flex;align-items:center;justify-content:space-between;gap:16px;min-width:130px;color:#fff;font-weight:600}
+#scaleKmLabel{font-size:13px;font-weight:700;color:#f6d88e;white-space:nowrap}
+.scale-track{display:flex;height:8px;min-width:55px;max-width:150px;border:1px solid #fff;overflow:hidden;border-radius:2px;box-shadow:0 0 0 1px #0002}
+.scale-track span{flex:1;background:#fff}
+.scale-track span:nth-child(even){background:#193954}
+
+.powered{position:absolute;bottom:12px;right:14px;z-index:11;background:#102a45dc;color:#fff;padding:8px 12px;border-radius:6px;font-size:12px;direction:ltr}
+.status{display:none}
+@media(max-width:700px){.foot{bottom:8px;left:7px;font-size:9px}.powered{bottom:8px;right:7px;font-size:10px}.foot .scale{font-size:10px}.foot{padding:7px 9px}.scale-title{min-width:110px}}
+.foot .cursor-coords{font-size:12px;font-weight:700;color:#fff;direction:ltr;white-space:nowrap;margin-top:5px;font-variant-numeric:tabular-nums}
+@media(max-width:700px){.foot .cursor-coords{font-size:10px}}
+</style><script src="https://js.arcgis.com/4.33/"></script></head><body><div id="viewDiv"></div><header class="header"><div class="brand"><img src="sma-logo.png" alt="SMA Group"></div><h1>نادى القضاة بالغردقة</h1><span class="sub">3D Survey Viewer</span></header><nav class="tools" aria-label="أدوات العرض"><button id="home" title="المشهد الرئيسي">⌂</button><button id="zoomIn" title="تكبير">+</button><button id="zoomOut" title="تصغير">−</button><button id="measure" title="القياس">📏</button><button id="orient" title="اتجاه الشمال">↥</button><button id="shot" title="التقاط صورة">▣</button><button id="full" title="ملء الشاشة">⛶</button></nav><section class="panel" id="measurePanel"><button class="close" id="closeMeasure">✕</button><h3>أدوات القياس</h3><div class="hint">اختر نوع القياس، ثم حدد الوحدة قبل البدء.</div><div class="measure-types"><button id="vertical">قياس المسافة</button><button id="area">قياس مساحة</button></div>
+<div class="measure-units"><label for="measureUnit">وحدة القياس</label><select id="measureUnit"><option value="meters">متر</option><option value="kilometers">كيلومتر</option><option value="feet">قدم</option></select></div>
+<button id="newMeasure">قياس جديد</button><div id="measureResult" aria-live="polite"></div><div id="measureHost" class="measure-host"></div></section><div class="foot"><div>WGS 84 / UTM Zone 36N · EPSG:32636</div><div class="cursor-coords" id="cursorCoords">—</div></div><div class="powered">POWERED BY <strong>SMA Group</strong></div><div class="status" id="status">Loading 3D model…</div><script>
+require(['esri/Map','esri/views/SceneView','esri/layers/IntegratedMeshLayer','esri/widgets/ScaleBar','esri/widgets/DirectLineMeasurement3D','esri/widgets/AreaMeasurement3D','esri/layers/GraphicsLayer','esri/Graphic','esri/geometry/Polyline','esri/geometry/projection'],function(Map,SceneView,IntegratedMeshLayer,ScaleBar,DirectLineMeasurement3D,AreaMeasurement3D,GraphicsLayer,Graphic,Polyline,projection){
+const status=document.getElementById('status');const layer=new IntegratedMeshLayer({url:location.origin+'/SceneServer/layers/0'});const map=new Map({layers:[layer]});const view=new SceneView({container:'viewDiv',map,viewingMode:'local',spatialReference:{wkid:32636},camera:{position:{longitude:33.79,latitude:27.27,z:800},tilt:65},environment:{background:{type:'color',color:[215,226,234,1]},starsEnabled:false,atmosphereEnabled:false}});view.ui.components=[];let initialView=null;let currentWidget=null;
+const drawLayer=new GraphicsLayer({title:'القياس الأفقي',elevationInfo:{mode:'absolute-height'}});
+map.add(drawLayer);
+let measureType=null,points=[],completed=false,clickHandle=null,doubleHandle=null,moveHandle=null,requestNumber=0;
+const resultBox=document.getElementById('measureResult');
+const unitSelect=document.getElementById('measureUnit');
+const factor={meters:1,kilometers:0.001,feet:3.280839895};
+const unitName={meters:'متر',kilometers:'كم',feet:'قدم'};
+function fmt(m){return (m*factor[unitSelect.value]).toLocaleString('ar-EG',{maximumFractionDigits:2})+' '+unitName[unitSelect.value]}
+function totalHorizontal(){let sum=0;for(let i=1;i<points.length;i++)sum+=Math.hypot(points[i][0]-points[i-1][0],points[i][1]-points[i-1][1]);return sum}
+function showHorizontal(){if(!points.length){resultBox.textContent='اضغط على أول نقطة على المجسم';return}resultBox.textContent=points.length<2?'حدد النقطة التالية':(completed?'إجمالي المسافة الأفقية: ':'المسافة الحالية: ')+fmt(totalHorizontal())+(completed?'':' — اضغط مرتين للإنهاء')}
+function polyGraphic(coords,temporary=false){return new Graphic({geometry:new Polyline({paths:[coords],spatialReference:view.spatialReference,hasZ:true}),symbol:{type:'line-3d',symbolLayers:[{type:'line',material:{color:temporary?[255,204,64,0.75]:[255,185,32,1]},size:temporary?3:5}]},attributes:{temporary}})}
+function redraw(preview){drawLayer.removeAll();if(points.length>1)drawLayer.add(polyGraphic(points));if(preview&&points.length&& !completed)drawLayer.add(polyGraphic([points.at(-1),preview],true));for(let i=0;i<points.length;i++)drawLayer.add(new Graphic({geometry:{type:'point',x:points[i][0],y:points[i][1],z:points[i][2],spatialReference:view.spatialReference},symbol:{type:'point-3d',symbolLayers:[{type:'icon',resource:{primitive:'circle'},material:{color:[255,220,80,1]},size:8,outline:{color:[12,43,70,1],size:1}}]}}))}
+async function mapPoint(evt){const hit=await view.hitTest(evt,{include:[layer]});const item=hit.results?.find(r=>r.mapPoint);let p=item?.mapPoint||view.toMap({x:evt.x,y:evt.y});if(!p)return null;if(p.spatialReference?.wkid!==view.spatialReference.wkid){p=p.clone();}return [p.x,p.y,Number.isFinite(p.z)?p.z:0]}
+function stopDraw(){requestNumber++;clickHandle?.remove();doubleHandle?.remove();moveHandle?.remove();clickHandle=doubleHandle=moveHandle=null;}
+function finishHorizontal(){if(points.length<2)return;completed=true;stopDraw();redraw();showHorizontal();status.textContent='اكتمل القياس الأفقي. اضغط «قياس جديد» لمسح القياس وبدء آخر.'}
+function startHorizontal(){stopDraw();drawLayer.removeAll();points=[];completed=false;showHorizontal();status.textContent='القياس الأفقي: انقر لإضافة نقاط، وانقر مرتين للإنهاء';doubleHandle=view.on('double-click',e=>{e.stopPropagation();finishHorizontal()});clickHandle=view.on('click',async e=>{if(completed)return;e.stopPropagation();const id=requestNumber;const p=await mapPoint(e);if(id!==requestNumber||!p||completed)return;if(points.length&&Math.hypot(p[0]-points.at(-1)[0],p[1]-points.at(-1)[1])<0.05)return;points.push(p);redraw();showHorizontal()});moveHandle=view.on('pointer-move',async e=>{if(!points.length||completed)return;const id=requestNumber;const p=await mapPoint(e);if(id===requestNumber&&p&&!completed)redraw(p)})}
+
+
+
+// Coordinates at the visible surface under the cursor (UTM 36N, meters).
+const cursorCoords=document.getElementById('cursorCoords');
+let projectionReady=false;
+projection.load().then(()=>{projectionReady=true}).catch(error);
+let cursorFrame=0, cursorEvent=null;
+view.on('pointer-move',event=>{
+  cursorEvent={x:event.x,y:event.y};
+  if(cursorFrame)return;
+  cursorFrame=requestAnimationFrame(()=>{
+    cursorFrame=0;
+    const p=view.toMap(cursorEvent);
+    if(p&&Number.isFinite(p.x)&&Number.isFinite(p.y)){
+      if(!projectionReady){cursorCoords.textContent='جاري تهيئة الإحداثيات…';return;}
+      const geo=projection.project(p,{wkid:4326});
+      if(geo&&Number.isFinite(geo.latitude)&&Number.isFinite(geo.longitude)){
+        const lat=geo.latitude,lon=geo.longitude;
+        cursorCoords.textContent=Math.abs(lat).toFixed(6)+'° '+(lat>=0?'N':'S')+'   '+Math.abs(lon).toFixed(6)+'° '+(lon>=0?'E':'W');
+      }else cursorCoords.textContent='—';
+    }else cursorCoords.textContent='—';
+  });
+});
+view.on('pointer-leave',()=>{cursorCoords.textContent='—'});
+function error(e){console.error('SMA Viewer:',e);status.textContent='Error: '+(e?.message||String(e))}function goHome(){if(initialView){view.goTo(initialView,{duration:700}).catch(error)}else if(layer.fullExtent){view.goTo(layer.fullExtent.expand(1.15)).catch(error)}}
+view.when(()=>layer.load()).then(()=>view.goTo(layer.fullExtent.expand(1.12),{duration:0})).then(()=>{initialView=view.camera.clone();status.textContent='3D model ready · drag to rotate · wheel to zoom'}).catch(error);
+document.getElementById('home').onclick=goHome;document.getElementById('zoomIn').onclick=()=>view.goTo({position:{...view.camera.position.toJSON(),z:view.camera.position.z-60}},{duration:250}).catch(error);document.getElementById('zoomOut').onclick=()=>view.goTo({position:{...view.camera.position.toJSON(),z:view.camera.position.z+60}},{duration:250}).catch(error);document.getElementById('orient').onclick=()=>view.goTo({heading:0},{duration:400}).catch(error);document.getElementById('full').onclick=()=>{if(!document.fullscreenElement)document.documentElement.requestFullscreen?.();else document.exitFullscreen?.()};document.getElementById('shot').onclick=async()=>{try{const s=await view.takeScreenshot({format:'png'});const a=document.createElement('a');a.href=s.dataUrl;a.download='SMA-Hurghada-3D.png';a.click()}catch(e){error(e)}};
+const panel=document.getElementById('measurePanel');
+const measureHost=document.getElementById('measureHost');
+function clearCurrent(){
+  stopDraw();if(currentWidget){currentWidget.destroy();currentWidget=null}
+  measureHost.replaceChildren();drawLayer.removeAll();points=[];completed=false;resultBox.textContent='';
+}
+function startNative(Cls){
+  const nativeUnit=Cls===AreaMeasurement3D?({meters:'square-meters',kilometers:'square-kilometers',feet:'square-feet'}[unitSelect.value]):unitSelect.value;
+  const w=new Cls({view,container:measureHost,unit:nativeUnit});
+  currentWidget=w;
+  view.when().then(()=>{if(currentWidget!==w)return;const vm=w.viewModel;if(typeof vm?.newMeasurement==='function')vm.newMeasurement();else if(typeof vm?.start==='function')vm.start()}).catch(error);
+}
+function startSelected(){
+  if(!measureType){status.textContent='اختر نوع القياس أولًا';return}
+  clearCurrent();
+  
+  if(measureType==='vertical'){startNative(DirectLineMeasurement3D);status.textContent='قياس المسافة: حدد نقطتين على المجسم لعرض نتيجة القياس.'}
+  if(measureType==='area'){startNative(AreaMeasurement3D);status.textContent='قياس المساحة: حدد حدود المنطقة كما في أداة ArcGIS الأصلية.'}
+}
+function selectType(type){
+  measureType=type;
+  document.querySelectorAll('.measure-types button').forEach(b=>b.classList.toggle('selected',b.id===type));
+  clearCurrent();
+  document.getElementById('newMeasure').textContent='بدء القياس';
+  status.textContent='حدد وحدة القياس ثم اضغط «بدء القياس»';
+}
+document.getElementById('measure').onclick=()=>panel.classList.toggle('show');
+document.getElementById('closeMeasure').onclick=()=>{panel.classList.remove('show');clearCurrent();measureType=null;document.querySelectorAll('.measure-types button').forEach(b=>b.classList.remove('selected'))};
+
+document.getElementById('vertical').onclick=()=>selectType('vertical');
+document.getElementById('area').onclick=()=>selectType('area');
+document.getElementById('newMeasure').onclick=()=>{startSelected();document.getElementById('newMeasure').textContent='قياس جديد'};
+unitSelect.onchange=()=>{
+  if(measureType==='horizontal')showHorizontal();
+  else if(currentWidget){try{currentWidget.unit=measureType==='area'?({meters:'square-meters',kilometers:'square-kilometers',feet:'square-feet'}[unitSelect.value]):unitSelect.value}catch(e){console.warn('Unit change:',e)}}
+};
+});</script></body></html>
